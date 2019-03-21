@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC3FBD70-0516-45D7-AF7F-BFB15B5B34F7}</ProjectGuid>
+    <RootNamespace>ProjectVillage</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="army\Archer.cpp" />
+    <ClCompile Include="army\Axeman.cpp" />
+    <ClCompile Include="army\HeavyCavalryman.cpp" />
+    <ClCompile Include="army\LightCavalryman.cpp" />
+    <ClCompile Include="army\Pikeman.cpp" />
+    <ClCompile Include="army\Swordsman.cpp" />
+    <ClCompile Include="BattleEngine.cpp" />
+    <ClCompile Include="buildings\Barrack.cpp" />
+    <ClCompile Include="buildings\Brickyard.cpp" />
+    <ClCompile Include="buildings\Farm.cpp" />
+    <ClCompile Include="buildings\Houses.cpp" />
+    <ClCompile Include="buildings\Lumbermill.cpp" />
+    <ClCompile Include="buildings\Mine.cpp" />
+    <ClCompile Include="buildings\Smithy.cpp" />
+    <ClCompile Include="buildings\Stable.cpp" />
+    <ClCompile Include="buildings\Townhall.cpp" />
+    <ClCompile Include="buildings\Walls.cpp" />
+    <ClCompile Include="buttons\Button.cpp" />
+    <ClCompile Include="buttons\IconButton.cpp" />
+    <ClCompile Include="buttons\TextButton.cpp" />
+    <ClCompile Include="data\ArmyData.cpp" />
+    <ClCompile Include="data\BuildingsData.cpp" />
+    <ClCompile Include="data\Data.cpp" />
+    <ClCompile Include="data\ResourcesData.cpp" />
+    <ClCompile Include="drawable\BuildingsWindowFrame.cpp" />
+    <ClCompile Include="drawable\EventBar.cpp" />
+    <ClCompile Include="drawable\Icon.cpp" />
+    <ClCompile Include="drawable\TextInput.cpp" />
+    <ClCompile Include="handlers\BattleHandler.cpp" />
+    <ClCompile Include="handlers\EventHandler.cpp" />
+    <ClCompile Include="handlers\RecruitHandler.cpp" />
+    <ClCompile Include="handlers\TextHandler.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="MainLoop.cpp" />
+    <ClCompile Include="random events\events\AbundanceEvent.cpp" />
+    <ClCompile Include="random events\events\BarbarianAttackEvent.cpp" />
+    <ClCompile Include="random events\events\BigTreeEvent.cpp" />
+    <ClCompile Include="random events\events\BlockOfClayEvent.cpp" />
+    <ClCompile Include="random events\events\DesertionEvent.cpp" />
+    <ClCompile Include="random events\events\IronDepositFindEvent.cpp" />
+    <ClCompile Include="random events\events\LocustEvent.cpp" />
+    <ClCompile Include="random events\events\MarrauderAttackEvent.cpp" />
+    <ClCompile Include="random events\events\NomadsAttackEvent.cpp" />
+    <ClCompile Include="random events\events\RecruitEvent.cpp" />
+    <ClCompile Include="random events\events\ThievesEvent.cpp" />
+    <ClCompile Include="random events\RandomMachine.cpp" />
+    <ClCompile Include="ShapeMap.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
+    <ClCompile Include="States\Building States\BarrackWindow.cpp" />
+    <ClCompile Include="States\Building States\BrickyardWindow.cpp" />
+    <ClCompile Include="States\Building States\FarmWindow.cpp" />
+    <ClCompile Include="States\Building States\HousesWindow.cpp" />
+    <ClCompile Include="States\Building States\LumbermillWindow.cpp" />
+    <ClCompile Include="States\Building States\MineWindow.cpp" />
+    <ClCompile Include="States\Building States\SmithyWindow.cpp" />
+    <ClCompile Include="States\Building States\StableWindow.cpp" />
+    <ClCompile Include="States\Building States\TownhallWindow.cpp" />
+    <ClCompile Include="States\Building States\WallsWindow.cpp" />
+    <ClCompile Include="States\Endgame States\AttackEndgameWindow.cpp" />
+    <ClCompile Include="States\Endgame States\StarveEndgameWindow.cpp" />
+    <ClCompile Include="States\ExitWindow.cpp" />
+    <ClCompile Include="States\GameWindow.cpp" />
+    <ClCompile Include="States\InGameExit.cpp" />
+    <ClCompile Include="States\InGameMenu.cpp" />
+    <ClCompile Include="States\LoadWindow.cpp" />
+    <ClCompile Include="States\MainMenu.cpp" />
+    <ClCompile Include="States\Quit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="army\Archer.h" />
+    <ClInclude Include="army\Axeman.h" />
+    <ClInclude Include="army\HeavyCavalryman.h" />
+    <ClInclude Include="army\LightCavalryman.h" />
+    <ClInclude Include="army\Pikeman.h" />
+    <ClInclude Include="army\Swordsman.h" />
+    <ClInclude Include="army\Unit.h" />
+    <ClInclude Include="BattleEngine.h" />
+    <ClInclude Include="buildings\Barrack.h" />
+    <ClInclude Include="buildings\Brickyard.h" />
+    <ClInclude Include="buildings\Building.h" />
+    <ClInclude Include="buildings\Farm.h" />
+    <ClInclude Include="buildings\Houses.h" />
+    <ClInclude Include="buildings\Lumbermill.h" />
+    <ClInclude Include="buildings\Mine.h" />
+    <ClInclude Include="buildings\Smithy.h" />
+    <ClInclude Include="buildings\Stable.h" />
+    <ClInclude Include="buildings\Townhall.h" />
+    <ClInclude Include="buildings\Walls.h" />
+    <ClInclude Include="buttons\Button.h" />
+    <ClInclude Include="buttons\IconButton.h" />
+    <ClInclude Include="buttons\TextButton.h" />
+    <ClInclude Include="data\ArmyData.h" />
+    <ClInclude Include="data\BuildingsData.h" />
+    <ClInclude Include="data\Data.h" />
+    <ClInclude Include="data\ResourcesData.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="drawable\BuildingsWindowFrame.h" />
+    <ClInclude Include="drawable\EventBar.h" />
+    <ClInclude Include="drawable\Icon.h" />
+    <ClInclude Include="drawable\TextInput.h" />
+    <ClInclude Include="exceptions\DataAccessViolationException.h" />
+    <ClInclude Include="exceptions\InvalidBuildingTypeException.h" />
+    <ClInclude Include="exceptions\InvalidEventIDException.h" />
+    <ClInclude Include="exceptions\InvalidEventTierException.h" />
+    <ClInclude Include="exceptions\InvalidResourcesTypeException.h" />
+    <ClInclude Include="exceptions\InvalidUnitTypeException.h" />
+    <ClInclude Include="exceptions\NoBuildingsWindowFrameFontException.h" />
+    <ClInclude Include="exceptions\NoEventBarFontException.h" />
+    <ClInclude Include="exceptions\NoIconButtonTextureException.h" />
+    <ClInclude Include="exceptions\NoIconTextureException.h" />
+    <ClInclude Include="exceptions\NoShapeMapLoadFontException.h" />
+    <ClInclude Include="exceptions\NoTextButtonFontException.h" />
+    <ClInclude Include="exceptions\NoTextInputFontException.h" />
+    <ClInclude Include="handlers\BattleHandler.h" />
+    <ClInclude Include="handlers\EventHandler.h" />
+    <ClInclude Include="handlers\RecruitHandler.h" />
+    <ClInclude Include="handlers\TextHandler.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="MainLoop.h" />
+    <ClInclude Include="random events\events\AbundanceEvent.h" />
+    <ClInclude Include="random events\events\BarbarianAttackEvent.h" />
+    <ClInclude Include="random events\events\BigTreeEvent.h" />
+    <ClInclude Include="random events\events\BlockOfClayEvent.h" />
+    <ClInclude Include="random events\events\DesertionEvent.h" />
+    <ClInclude Include="random events\events\IronDepositFindEvent.h" />
+    <ClInclude Include="random events\events\LocustEvent.h" />
+    <ClInclude Include="random events\events\MarrauderAttackEvent.h" />
+    <ClInclude Include="random events\events\NomadsAttackEvent.h" />
+    <ClInclude Include="random events\events\RecruitEvent.h" />
+    <ClInclude Include="random events\events\ThievesEvent.h" />
+    <ClInclude Include="random events\RandomEvent.h" />
+    <ClInclude Include="random events\RandomMachine.h" />
+    <ClInclude Include="ShapeMap.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateMachine.h" />
+    <ClInclude Include="States\Building States\BarrackWindow.h" />
+    <ClInclude Include="States\Building States\BrickyardWindow.h" />
+    <ClInclude Include="States\Building States\FarmWindow.h" />
+    <ClInclude Include="States\Building States\HousesWindow.h" />
+    <ClInclude Include="States\Building States\LumbermillWindow.h" />
+    <ClInclude Include="States\Building States\MineWindow.h" />
+    <ClInclude Include="States\Building States\SmithyWindow.h" />
+    <ClInclude Include="States\Building States\StableWindow.h" />
+    <ClInclude Include="States\Building States\TownhallWindow.h" />
+    <ClInclude Include="States\Building States\WallsWindow.h" />
+    <ClInclude Include="States\Endgame States\AttackEndgameWindow.h" />
+    <ClInclude Include="States\Endgame States\StarveEndgameWindow.h" />
+    <ClInclude Include="States\ExitWindow.h" />
+    <ClInclude Include="States\GameWindow.h" />
+    <ClInclude Include="States\InGameExit.h" />
+    <ClInclude Include="States\InGameMenu.h" />
+    <ClInclude Include="States\LoadWindow.h" />
+    <ClInclude Include="States\MainMenu.h" />
+    <ClInclude Include="States\Quit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\Abudance.png" />
+    <Image Include="img\Archer.png" />
+    <Image Include="img\Axeman.png" />
+    <Image Include="img\Barbarian.png" />
+    <Image Include="img\Barrack.png" />
+    <Image Include="img\Brickyard.png" />
+    <Image Include="img\ClayIcon.png" />
+    <Image Include="img\Desertion.png" />
+    <Image Include="img\doorsIcon.png" />
+    <Image Include="img\EmptyEvent.png" />
+    <Image Include="img\Farm.png" />
+    <Image Include="img\FoodIcon.png" />
+    <Image Include="img\HeavyCavalryman.png" />
+    <Image Include="img\Houses.png" />
+    <Image Include="img\IronIcon.png" />
+    <Image Include="img\LightCavalryman.png" />
+    <Image Include="img\Locust.png" />
+    <Image Include="img\Lumbermill.png" />
+    <Image Include="img\Marrauder.png" />
+    <Image Include="img\Mine.png" />
+    <Image Include="img\Nomads.png" />
+    <Image Include="img\PeopleIcon.png" />
+    <Image Include="img\Pikeman.png" />
+    <Image Include="img\Recruit.png" />
+    <Image Include="img\ResourcesEvent.png" />
+    <Image Include="img\Smithy.png" />
+    <Image Include="img\Stable.png" />
+    <Image Include="img\Swordsman.png" />
+    <Image Include="img\Thieves.png" />
+    <Image Include="img\Townhall.png" />
+    <Image Include="img\upgradeIcon.png" />
+    <Image Include="img\upgradeIcon2.png" />
+    <Image Include="img\Walls.png" />
+    <Image Include="img\WoodIcon.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\sfml-graphics.redist.2.4.2.0\build\native\sfml-graphics.redist.targets" Condition="Exists('..\packages\sfml-graphics.redist.2.4.2.0\build\native\sfml-graphics.redist.targets')" />
+    <Import Project="..\packages\sfml-system.redist.2.4.2.0\build\native\sfml-system.redist.targets" Condition="Exists('..\packages\sfml-system.redist.2.4.2.0\build\native\sfml-system.redist.targets')" />
+    <Import Project="..\packages\sfml-system.2.4.2.0\build\native\sfml-system.targets" Condition="Exists('..\packages\sfml-system.2.4.2.0\build\native\sfml-system.targets')" />
+    <Import Project="..\packages\sfml-window.redist.2.4.2.0\build\native\sfml-window.redist.targets" Condition="Exists('..\packages\sfml-window.redist.2.4.2.0\build\native\sfml-window.redist.targets')" />
+    <Import Project="..\packages\sfml-window.2.4.2.0\build\native\sfml-window.targets" Condition="Exists('..\packages\sfml-window.2.4.2.0\build\native\sfml-window.targets')" />
+    <Import Project="..\packages\sfml-graphics.2.4.2.0\build\native\sfml-graphics.targets" Condition="Exists('..\packages\sfml-graphics.2.4.2.0\build\native\sfml-graphics.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\sfml-graphics.redist.2.4.2.0\build\native\sfml-graphics.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sfml-graphics.redist.2.4.2.0\build\native\sfml-graphics.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\sfml-system.redist.2.4.2.0\build\native\sfml-system.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sfml-system.redist.2.4.2.0\build\native\sfml-system.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\sfml-system.2.4.2.0\build\native\sfml-system.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sfml-system.2.4.2.0\build\native\sfml-system.targets'))" />
+    <Error Condition="!Exists('..\packages\sfml-window.redist.2.4.2.0\build\native\sfml-window.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sfml-window.redist.2.4.2.0\build\native\sfml-window.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\sfml-window.2.4.2.0\build\native\sfml-window.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sfml-window.2.4.2.0\build\native\sfml-window.targets'))" />
+    <Error Condition="!Exists('..\packages\sfml-graphics.2.4.2.0\build\native\sfml-graphics.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sfml-graphics.2.4.2.0\build\native\sfml-graphics.targets'))" />
+  </Target>
+</Project>

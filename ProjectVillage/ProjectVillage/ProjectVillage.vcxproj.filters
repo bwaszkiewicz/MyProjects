@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\StateMachine">
+      <UniqueIdentifier>{285ae2d6-d7c0-4b8e-8cfa-2994fcc950d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StateMachine\States">
+      <UniqueIdentifier>{2acb10e6-584f-4d1f-82d6-0a9bf6440271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{9048ddad-28ac-45d9-9f78-662cb4065a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Buttons">
+      <UniqueIdentifier>{744403df-a997-4b0d-8d16-925d8f2d51c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buttons">
+      <UniqueIdentifier>{869a21df-4858-4236-84f5-68933905880d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buildings">
+      <UniqueIdentifier>{2785dee6-99b5-4cfa-9260-416882311717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Buildings">
+      <UniqueIdentifier>{bdebd121-80f0-45b1-8e3d-113dcc8bd150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Army">
+      <UniqueIdentifier>{acf67061-ec21-4e1e-a153-c1ddbfd5b758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Army">
+      <UniqueIdentifier>{51e6a69b-5717-4007-8636-ac3e9025b9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img">
+      <UniqueIdentifier>{b5ff2552-be46-4160-beab-cd6e646c499a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StateMachine\States\Building States">
+      <UniqueIdentifier>{bb9b2fc0-88c8-49a8-a7b9-89905fdeeb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\Building States">
+      <UniqueIdentifier>{d643e06c-61ee-4f06-b4c0-7158c19153f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img\Buildings">
+      <UniqueIdentifier>{919f23e5-3f89-4bec-b94c-8eb1b060f3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img\Resources">
+      <UniqueIdentifier>{67e8c658-cec9-4dbc-88b0-5064f21551e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drawable">
+      <UniqueIdentifier>{6ddf7eac-d207-467d-a6c1-90de23ac8948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drawable">
+      <UniqueIdentifier>{d314854a-8f11-4dad-9829-9d22df59ec88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img\Army">
+      <UniqueIdentifier>{acb0a25d-0cfa-4e71-9f4d-d510b2c5e3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RandomEvents">
+      <UniqueIdentifier>{0335c941-010d-45b1-a1b3-3fdab8c1fcdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RandomEvents">
+      <UniqueIdentifier>{c73e13c6-5123-45d5-8091-44072d29a70c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RandomEvents\Events">
+      <UniqueIdentifier>{96202cc2-bcd9-4bdb-8856-34317bde20d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RandomEvents\Events">
+      <UniqueIdentifier>{3cfabc1e-599b-4cff-9cf7-cce74a168a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Handlers">
+      <UniqueIdentifier>{15794399-182e-4a01-9261-3761b86cafaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{43ea7cc2-b3fd-4704-9e83-c6b7f322e8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Handlers">
+      <UniqueIdentifier>{2e8550a1-7e6d-4252-ba39-b8dada9d27bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{60abcdb1-78cc-4931-8cfa-7dcfb4db6ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img\Events">
+      <UniqueIdentifier>{7753bb72-7dab-4a6b-a57e-1f6477f5b404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\Endgame States">
+      <UniqueIdentifier>{61607d75-46d2-444f-a018-851dea2e9a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StateMachine\States\Endgame States">
+      <UniqueIdentifier>{b5ba5230-8d1c-4f4a-b6de-20b7da87dc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{eb53bc4b-b61b-4ad9-9a50-2fd82742a596}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="States\ExitWindow.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\GameWindow.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\InGameExit.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\InGameMenu.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\LoadWindow.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\MainMenu.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Quit.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="buttons\Button.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="buttons\IconButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="buttons\TextButton.cpp">
+      <Filter>Source Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="army\Archer.cpp">
+      <Filter>Source Files\Army</Filter>
+    </ClCompile>
+    <ClCompile Include="army\Axeman.cpp">
+      <Filter>Source Files\Army</Filter>
+    </ClCompile>
+    <ClCompile Include="army\HeavyCavalryman.cpp">
+      <Filter>Source Files\Army</Filter>
+    </ClCompile>
+    <ClCompile Include="army\LightCavalryman.cpp">
+      <Filter>Source Files\Army</Filter>
+    </ClCompile>
+    <ClCompile Include="army\Pikeman.cpp">
+      <Filter>Source Files\Army</Filter>
+    </ClCompile>
+    <ClCompile Include="army\Swordsman.cpp">
+      <Filter>Source Files\Army</Filter>
+    </ClCompile>
+    <ClCompile Include="buildings\Barrack.cpp">
+      <Filter>Source Files\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="buildings\Brickyard.cpp">
+      <Filter>Source Files\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="buildings\Farm.cpp">
+      <Filter>Source Files\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="buildings\Houses.cpp">
+      <Filter>Source Files\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="buildings\Lumbermill.cpp">
+      <Filter>Source Files\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="buildings\Mine.cpp">
+      <Filter>Source Files\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="buildings\Smithy.cpp">
+      <Filter>Source Files\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="buildings\Stable.cpp">
+      <Filter>Source Files\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="buildings\Townhall.cpp">
+      <Filter>Source Files\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="buildings\Walls.cpp">
+      <Filter>Source Files\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="data\ArmyData.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="data\BuildingsData.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="data\Data.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="data\ResourcesData.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="drawable\BuildingsWindowFrame.cpp">
+      <Filter>Source Files\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="drawable\EventBar.cpp">
+      <Filter>Source Files\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="drawable\Icon.cpp">
+      <Filter>Source Files\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="drawable\TextInput.cpp">
+      <Filter>Source Files\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\BattleHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\EventHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\RecruitHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="handlers\TextHandler.cpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\events\AbundanceEvent.cpp">
+      <Filter>Source Files\RandomEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\events\BarbarianAttackEvent.cpp">
+      <Filter>Source Files\RandomEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\events\BigTreeEvent.cpp">
+      <Filter>Source Files\RandomEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\events\BlockOfClayEvent.cpp">
+      <Filter>Source Files\RandomEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\events\DesertionEvent.cpp">
+      <Filter>Source Files\RandomEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\events\IronDepositFindEvent.cpp">
+      <Filter>Source Files\RandomEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\events\LocustEvent.cpp">
+      <Filter>Source Files\RandomEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\events\MarrauderAttackEvent.cpp">
+      <Filter>Source Files\RandomEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\events\NomadsAttackEvent.cpp">
+      <Filter>Source Files\RandomEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\events\RecruitEvent.cpp">
+      <Filter>Source Files\RandomEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\events\ThievesEvent.cpp">
+      <Filter>Source Files\RandomEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="random events\RandomMachine.cpp">
+      <Filter>Source Files\RandomEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Endgame States\AttackEndgameWindow.cpp">
+      <Filter>Source Files\States\Endgame States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Endgame States\StarveEndgameWindow.cpp">
+      <Filter>Source Files\States\Endgame States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Building States\BarrackWindow.cpp">
+      <Filter>Source Files\States\Building States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Building States\BrickyardWindow.cpp">
+      <Filter>Source Files\States\Building States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Building States\FarmWindow.cpp">
+      <Filter>Source Files\States\Building States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Building States\HousesWindow.cpp">
+      <Filter>Source Files\States\Building States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Building States\LumbermillWindow.cpp">
+      <Filter>Source Files\States\Building States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Building States\MineWindow.cpp">
+      <Filter>Source Files\States\Building States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Building States\SmithyWindow.cpp">
+      <Filter>Source Files\States\Building States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Building States\StableWindow.cpp">
+      <Filter>Source Files\States\Building States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Building States\TownhallWindow.cpp">
+      <Filter>Source Files\States\Building States</Filter>
+    </ClCompile>
+    <ClCompile Include="States\Building States\WallsWindow.cpp">
+      <Filter>Source Files\States\Building States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="States\ExitWindow.h">
+      <Filter>Header Files\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\GameWindow.h">
+      <Filter>Header Files\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\InGameExit.h">
+      <Filter>Header Files\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\InGameMenu.h">
+      <Filter>Header Files\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\LoadWindow.h">
+      <Filter>Header Files\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\MainMenu.h">
+      <Filter>Header Files\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Quit.h">
+      <Filter>Header Files\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="buttons\Button.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="buttons\IconButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="buttons\TextButton.h">
+      <Filter>Header Files\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="army\Archer.h">
+      <Filter>Header Files\Army</Filter>
+    </ClInclude>
+    <ClInclude Include="army\Axeman.h">
+      <Filter>Header Files\Army</Filter>
+    </ClInclude>
+    <ClInclude Include="army\HeavyCavalryman.h">
+      <Filter>Header Files\Army</Filter>
+    </ClInclude>
+    <ClInclude Include="army\LightCavalryman.h">
+      <Filter>Header Files\Army</Filter>
+    </ClInclude>
+    <ClInclude Include="army\Pikeman.h">
+      <Filter>Header Files\Army</Filter>
+    </ClInclude>
+    <ClInclude Include="army\Swordsman.h">
+      <Filter>Header Files\Army</Filter>
+    </ClInclude>
+    <ClInclude Include="army\Unit.h">
+      <Filter>Header Files\Army</Filter>
+    </ClInclude>
+    <ClInclude Include="buildings\Barrack.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="buildings\Brickyard.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="buildings\Building.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="buildings\Farm.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="buildings\Houses.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="buildings\Lumbermill.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="buildings\Mine.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="buildings\Smithy.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="buildings\Stable.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="buildings\Townhall.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="buildings\Walls.h">
+      <Filter>Header Files\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="data\ArmyData.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\BuildingsData.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\Data.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\ResourcesData.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="drawable\BuildingsWindowFrame.h">
+      <Filter>Header Files\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="drawable\EventBar.h">
+      <Filter>Header Files\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="drawable\Icon.h">
+      <Filter>Header Files\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="drawable\TextInput.h">
+      <Filter>Header Files\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\DataAccessViolationException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\InvalidBuildingTypeException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\InvalidEventIDException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\InvalidEventTierException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\InvalidResourcesTypeException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\InvalidUnitTypeException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NoBuildingsWindowFrameFontException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NoEventBarFontException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NoIconButtonTextureException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NoIconTextureException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NoShapeMapLoadFontException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NoTextButtonFontException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NoTextInputFontException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\BattleHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\EventHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\RecruitHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\TextHandler.h">
+      <Filter>Header Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\events\AbundanceEvent.h">
+      <Filter>Header Files\RandomEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\events\BarbarianAttackEvent.h">
+      <Filter>Header Files\RandomEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\events\BigTreeEvent.h">
+      <Filter>Header Files\RandomEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\events\BlockOfClayEvent.h">
+      <Filter>Header Files\RandomEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\events\DesertionEvent.h">
+      <Filter>Header Files\RandomEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\events\IronDepositFindEvent.h">
+      <Filter>Header Files\RandomEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\events\LocustEvent.h">
+      <Filter>Header Files\RandomEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\events\MarrauderAttackEvent.h">
+      <Filter>Header Files\RandomEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\events\NomadsAttackEvent.h">
+      <Filter>Header Files\RandomEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\events\RecruitEvent.h">
+      <Filter>Header Files\RandomEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\events\ThievesEvent.h">
+      <Filter>Header Files\RandomEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\RandomEvent.h">
+      <Filter>Header Files\RandomEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="random events\RandomMachine.h">
+      <Filter>Header Files\RandomEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Building States\BarrackWindow.h">
+      <Filter>Header Files\StateMachine\States\Building States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Building States\BrickyardWindow.h">
+      <Filter>Header Files\StateMachine\States\Building States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Building States\FarmWindow.h">
+      <Filter>Header Files\StateMachine\States\Building States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Building States\HousesWindow.h">
+      <Filter>Header Files\StateMachine\States\Building States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Building States\LumbermillWindow.h">
+      <Filter>Header Files\StateMachine\States\Building States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Building States\MineWindow.h">
+      <Filter>Header Files\StateMachine\States\Building States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Building States\SmithyWindow.h">
+      <Filter>Header Files\StateMachine\States\Building States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Building States\StableWindow.h">
+      <Filter>Header Files\StateMachine\States\Building States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Building States\TownhallWindow.h">
+      <Filter>Header Files\StateMachine\States\Building States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Building States\WallsWindow.h">
+      <Filter>Header Files\StateMachine\States\Building States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Endgame States\AttackEndgameWindow.h">
+      <Filter>Header Files\StateMachine\States\Endgame States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\Endgame States\StarveEndgameWindow.h">
+      <Filter>Header Files\StateMachine\States\Endgame States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\doorsIcon.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\upgradeIcon.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\upgradeIcon2.png">
+      <Filter>Resource Files\img</Filter>
+    </Image>
+    <Image Include="img\Townhall.png">
+      <Filter>Resource Files\img\Buildings</Filter>
+    </Image>
+    <Image Include="img\Lumbermill.png">
+      <Filter>Resource Files\img\Buildings</Filter>
+    </Image>
+    <Image Include="img\ClayIcon.png">
+      <Filter>Resource Files\img\Resources</Filter>
+    </Image>
+    <Image Include="img\FoodIcon.png">
+      <Filter>Resource Files\img\Resources</Filter>
+    </Image>
+    <Image Include="img\PeopleIcon.png">
+      <Filter>Resource Files\img\Resources</Filter>
+    </Image>
+    <Image Include="img\WoodIcon.png">
+      <Filter>Resource Files\img\Resources</Filter>
+    </Image>
+    <Image Include="img\IronIcon.png">
+      <Filter>Resource Files\img\Resources</Filter>
+    </Image>
+    <Image Include="img\Barrack.png">
+      <Filter>Resource Files\img\Buildings</Filter>
+    </Image>
+    <Image Include="img\Brickyard.png">
+      <Filter>Resource Files\img\Buildings</Filter>
+    </Image>
+    <Image Include="img\Farm.png">
+      <Filter>Resource Files\img\Buildings</Filter>
+    </Image>
+    <Image Include="img\Mine.png">
+      <Filter>Resource Files\img\Buildings</Filter>
+    </Image>
+    <Image Include="img\Smithy.png">
+      <Filter>Resource Files\img\Buildings</Filter>
+    </Image>
+    <Image Include="img\Stable.png">
+      <Filter>Resource Files\img\Buildings</Filter>
+    </Image>
+    <Image Include="img\Walls.png">
+      <Filter>Resource Files\img\Buildings</Filter>
+    </Image>
+    <Image Include="img\Houses.png">
+      <Filter>Resource Files\img\Buildings</Filter>
+    </Image>
+    <Image Include="img\Archer.png">
+      <Filter>Resource Files\img\Army</Filter>
+    </Image>
+    <Image Include="img\Axeman.png">
+      <Filter>Resource Files\img\Army</Filter>
+    </Image>
+    <Image Include="img\HeavyCavalryman.png">
+      <Filter>Resource Files\img\Army</Filter>
+    </Image>
+    <Image Include="img\LightCavalryman.png">
+      <Filter>Resource Files\img\Army</Filter>
+    </Image>
+    <Image Include="img\Pikeman.png">
+      <Filter>Resource Files\img\Army</Filter>
+    </Image>
+    <Image Include="img\Swordsman.png">
+      <Filter>Resource Files\img\Army</Filter>
+    </Image>
+    <Image Include="img\Abudance.png">
+      <Filter>Resource Files\img\Events</Filter>
+    </Image>
+    <Image Include="img\Barbarian.png">
+      <Filter>Resource Files\img\Events</Filter>
+    </Image>
+    <Image Include="img\Desertion.png">
+      <Filter>Resource Files\img\Events</Filter>
+    </Image>
+    <Image Include="img\Locust.png">
+      <Filter>Resource Files\img\Events</Filter>
+    </Image>
+    <Image Include="img\Marrauder.png">
+      <Filter>Resource Files\img\Events</Filter>
+    </Image>
+    <Image Include="img\Nomads.png">
+      <Filter>Resource Files\img\Events</Filter>
+    </Image>
+    <Image Include="img\Recruit.png">
+      <Filter>Resource Files\img\Events</Filter>
+    </Image>
+    <Image Include="img\ResourcesEvent.png">
+      <Filter>Resource Files\img\Events</Filter>
+    </Image>
+    <Image Include="img\Thieves.png">
+      <Filter>Resource Files\img\Events</Filter>
+    </Image>
+    <Image Include="img\EmptyEvent.png">
+      <Filter>Resource Files\img\Events</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

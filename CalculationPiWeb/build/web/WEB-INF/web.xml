@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>CalculationServlet</servlet-name>
+        <servlet-class>pl.polsl.calculationpiweb.servlet.CalculationServlet</servlet-class>
+        
+        <init-param>
+            <param-name>JdbcDriver</param-name>
+            <param-value>org.apache.derby.jdbc.ClientDriver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>DatabaseName</param-name>
+            <param-value>LaboratoriumJava</param-value>
+        </init-param>
+        <init-param>
+            <param-name>DatabaseUserName</param-name>
+            <param-value>Java</param-value>
+        </init-param>
+        <init-param>
+            <param-name>DatabaseUserPassword</param-name>
+            <param-value>java</param-value>
+        </init-param>
+        
+    </servlet>
+    <servlet>
+        <servlet-name>CalculationHistory</servlet-name>
+        <servlet-class>pl.polsl.calculationpiweb.servlet.CalculationHistory</servlet-class>
+        
+        <init-param>
+            <param-name>JdbcDriver</param-name>
+            <param-value>org.apache.derby.jdbc.ClientDriver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>DatabaseName</param-name>
+            <param-value>LaboratoriumJava</param-value>
+        </init-param>
+        <init-param>
+            <param-name>DatabaseUserName</param-name>
+            <param-value>Java</param-value>
+        </init-param>
+        <init-param>
+            <param-name>DatabaseUserPassword</param-name>
+            <param-value>java</param-value>
+        </init-param>
+        
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CalculationServlet</servlet-name>
+        <url-pattern>/CalculationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CalculationHistory</servlet-name>
+        <url-pattern>/CalculationHistory</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

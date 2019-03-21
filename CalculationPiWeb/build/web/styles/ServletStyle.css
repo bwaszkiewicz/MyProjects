@@ -1,0 +1,30 @@
+/* 
+    Created on : 2018-11-26, 16:04:59
+    Author     : BW
+*/
+
+.MainBlock {
+    text-align: center;
+    left: 0;
+    top: 0;
+    font-size: xx-large;
+    height: 90%;
+    width: 100%;
+    overflow-y: scroll;
+    position: fixed;
+}
+.MainBlock p {
+        margin-top: 10px;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 90%;
+    text-align: right;
+}
+footer p{
+    margin: 20px;
+}

@@ -1,0 +1,18 @@
+/* 
+    Created on : 2018-11-21, 19:25:43
+    Author     : BW
+*/
+
+#mainBlock{
+    font-size: xx-large;
+    text-align: center;
+}
+
+#calculationInput{
+    text-align: center;
+    margin: 10px;
+}
+
+#calchistory{
+    text-align: center;
+}

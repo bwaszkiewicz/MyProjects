@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculation Pi</title>
+        <link rel="stylesheet" type="text/css" href="styles/IndexStyle.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/pi.ico"/>
+    </head>
+    <body>
+        <div id="mainBlock">
+            Enter the number of points
+        
+        </div>
+        
+        <form action="CalculationServlet" id="calculationInput" method="POST">
+            <input type="text" name="numberOfPoints" value="" />
+            <input type="submit" value="Ok" />
+        </form>
+        
+        <form action="CalculationHistory" id="calchistory" method="GET">
+            <input type="submit" value="Calculation history" />
+        </form>
+    </body>
+</html>
